@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgriSure Smart - Video Lectures</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background-color: #228B22;
+            padding: 20px;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header .logo h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px 20px;
+            background-color: #228B22;
+            border-radius: 5px;
+        }
+
+        nav ul li a.button {
+            background-color: #228B22;
+        }
+
+        nav ul li a:hover {
+            background-color: #76d476;
+        }
+
+        .video-categories {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin: 20px 0;
+        }
+
+        .video-categories button {
+            padding: 10px 15px;
+            border: none;
+            background-color: #228B22;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .video-categories button:hover {
+            background-color: #228B22;
+        }
+
+        .video-lectures {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 20px;
+        }
+
+        .video {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            width: 45%;
+            margin: 20px;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .video iframe {
+            width: 100%;
+            height: 300px;
+            border-radius: 10px;
+        }
+
+        footer {
+            background-color: #228B22;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>AgriSure Smart</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="blogs.html">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="video-lectures">
+        <div class="video">
+            <h3>Basics of Modern Agriculture</h3>
+            <iframe src="https://www.youtube.com/embed/7x21boOzzro?si=vRjXU-M_F0S3Sfax" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+           
+        </div>
+
+        <div class="video">
+            <h3>Precision Farming Technologies</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/oQlicIzQork?si=aSkr0JHR0D4SKXhJ" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+           
+        </div>
+
+        
+        <div class="video">
+            <h3>How to Manage Farm Productivity</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/BmgTy0zOYO4?si=a4S3AwLWcXOi-UHM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        </div>
+
+        <div class="video">
+            <h3>Understanding Soil Health</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Dj4rGHzc-3A?si=G72K7lNwp9HTwQWC" allowfullscreen></iframe>
+            
+        </div>
+
+    </section>
+
+    <footer>
+        <p>&copy; 2024 AgriSure Smart | All Rights Reserved</p>
+    </footer>
+</body>
+</html>

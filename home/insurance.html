@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Policy Dashboard</title>
+    <link rel="stylesheet" href="dashboardfarmer.css">
+</head>
+<body>
+    <div class="navbar">
+        <a href =""></a>
+        <a href="index.html">Home</a>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <div class="container">
+        <h1>AGRISURE'S POLICIES </h1>       
+        <section id="policies-view">
+            <h2>Available Policies</h2>
+            <div id="available-policies">
+                <label for="Policy-type">Policy Type:</label>
+                <select id="Policy-type">
+                    <option value="SELECT ONE POLICY ">--SELECT ONE POLICY--</option>
+                    <option value="Climate-Smart Insurance Policy">Climate-Smart Insurance Policy</option>
+                    <option value="Drought-Resilience Subsidy Policy">Drought-Resilience Subsidy Policy</option>
+                    <option value="Flood Management and Recovery Policy">Flood Management and Recovery Policy</option>
+                    <option value="Agroforestry Promotion Policy">Agroforestry Promotion Policy</option>
+                    <option value="Heat-Resilient Farming Policy">Heat-Resilient Farming Policy</option>
+                    <option value="Weather Data Access and Early Warning Policy">Weather Data Access and Early Warning Policy</option>
+                </select>
+            </div>
+            
+            <h2>Active Policies</h2>
+            <div id="active-policies">
+                <select id="Active-policies">
+                    <option value="SELECT ONE POLICY ">--SELECT ONE POLICY--</option>
+                    <option value="Climate-Smart Insurance Policy">Climate-Smart Insurance Policy</option>
+                    <option value="Drought-Resilience Subsidy Policy">Drought-Resilience Subsidy Policy</option>
+                    <option value="Flood Management and Recovery Policy">Flood Management and Recovery Policy</option>
+                    <option value="Agroforestry Promotion Policy">Agroforestry Promotion Policy</option>
+                    <option value="Heat-Resilient Farming Policy">Heat-Resilient Farming Policy</option>
+                    <option value="Weather Data Access and Early Warning Policy">Weather Data Access and Early Warning Policy</option>
+                </select>
+            </div>
+        </section>
+        <section id="policy-filters">
+            <h2>Find Policies</h2>
+            <form id="filter-form">
+                <label for="crop-type">Crop Type:</label>
+                <select id="crop-type">
+                    <option value="wheat">Wheat</option>
+                    <option value="corn">Corn</option>
+                    <option value="rice">Rice</option>
+                </select>
+
+                <label for="farm-size">Farm Size (in acres):</label>
+                <input type="number" id="farm-size" min="1">
+
+                <button type="submit">SUBMIT DATA </button>
+            </form>
+</section>
+        <div id="image-section">
+            <img src="https://i.pinimg.com/474x/41/e3/67/41e3674972a250e39c69dd45975f5b70.jpg" alt="Farm Image 1">
+            <img src="https://i.pinimg.com/474x/a8/b2/df/a8b2dfa0591e9d1843cdb6193a3c3c7e.jpg" alt="Farm Image 2">
+            <img src="https://i.pinimg.com/474x/c3/5e/65/c35e658808dd6149ec4f105f25d8c7e5.jpg" alt="Farm Image 3">
+        </div>
+        <section id="description">
+            <h2>Policy Descriptions</h2>
+            <p>Welcome to AgriSure's policy dashboard! We offer a range of policies designed to help farmers like you tackle the challenges posed by climate change. From extreme weather events to heatwaves, our policies ensure you have the support needed to maintain the sustainability of your farm, whether small or large. Explore tailored insurance and subsidy options to protect your farm from environmental uncertainties.</p>
+            
+            <p>Below is an overview of the various policies we offer, along with pricing and ratings:</p>
+        
+            <ul>
+                <li><strong>Climate-Smart Insurance Policy:</strong> 
+                    Protect your farm from extreme weather events such as droughts, floods, and heatwaves. This policy covers crop damage and helps recover from severe weather impacts. 
+                    <br><strong>Pricing:</strong> 
+                    - Small farms: ₹3000/year, Medium farms: ₹700/year, Large farms: ₹1200/year.
+                    <br><strong>Rating:</strong> ⭐⭐⭐⭐ (4.5/5)
+                </li>
+                
+                <li><strong>Drought-Resilience Subsidy Policy:</strong> 
+                    Receive financial assistance to implement drought-resilient farming practices, such as rainwater harvesting and drought-resistant crop varieties.
+                    <br><strong>Pricing:</strong> 
+                    - Small farms: ₹2000/year, Medium farms: ₹500/year, Large farms: ₹1000/year.
+                    <br><strong>Rating:</strong> ⭐⭐⭐⭐ (4.4/5)
+                </li>
+                
+                <li><strong>Flood Management and Recovery Policy:</strong> 
+                    Mitigate flood risks with preventive strategies and receive recovery assistance in case of damage. This policy supports flood defense mechanisms and compensates for flood-related losses.
+                    <br><strong>Pricing:</strong> 
+                    - Small farms: ₹2500/year, Medium farms: ₹600/year, Large farms: ₹1100/year.
+                    <br><strong>Rating:</strong> ⭐⭐⭐⭐⭐ (4.8/5)
+                </li>
+                
+                <li><strong>Agroforestry Promotion Policy:</strong> 
+                    Encourage sustainable farming through agroforestry by integrating trees with your crops and livestock. This policy provides grants and training to promote this eco-friendly approach.
+                    <br><strong>Pricing:</strong> 
+                    - Small farms: ₹1000/year, Medium farms: ₹300/year, Large farms: ₹700/year.
+                    <br><strong>Rating:</strong> ⭐⭐⭐⭐ (4.3/5)
+                </li>
+                
+                <li><strong>Heat-Resilient Farming Policy:</strong> 
+                    Equip your farm with heat-tolerant seeds and cooling systems to combat rising temperatures. This policy is essential for farms in regions prone to heatwaves.
+                    <br><strong>Pricing:</strong> 
+                    - Small farms: ₹1500/year, Medium farms: ₹400/year, Large farms: ₹800/year.
+                    <br><strong>Rating:</strong> ⭐⭐⭐⭐ (4.5/5)
+                </li>
+                
+                <li><strong>Weather Data Access and Early Warning Policy:</strong> 
+                    Gain 24/7 access to real-time weather forecasts and receive early alerts for extreme weather conditions, helping you plan and protect your crops effectively.
+                    <br><strong>Pricing:</strong> 
+                    - Small farms: ₹500/year, Medium farms: ₹150/year, Large farms: ₹300/year.
+                    <br><strong>Rating:</strong> ⭐⭐⭐⭐ (4.6/5)
+                </li>
+            </ul>
+        
+            <p>Use the filters above to find the policies that match your specific crop type and farm size. Once you've selected a policy, our team will guide you through the application process and ensure you get the best possible coverage for your farm.</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 AgriSure. All rights reserved.</p>
+        <p>Follow us on 
+            <a href="#" style="color: white;">Facebook</a>, 
+            <a href="#" style="color: white;">Twitter</a>, 
+            <a href="#" style="color: white;">Instagram</a>
+        </p>
+    </footer>
+    <script>
+        const policies = [
+            {
+                name: "Climate-Smart Insurance Policy",
+                pricing: {small: 3000, medium: 700, large: 1200},
+                rating: "⭐⭐⭐⭐ (4.5/5)"
+            },
+            {
+                name: "Drought-Resilience Subsidy Policy",
+                pricing: {small: 2000, medium: 500, large: 1000},
+                rating: "⭐⭐⭐⭐ (4.4/5)"
+            },
+            {
+                name: "Flood Management and Recovery Policy",
+                pricing: {small: 2500, medium: 600, large: 1100},
+                rating: "⭐⭐⭐⭐⭐ (4.8/5)"
+            },
+            {
+                name: "Agroforestry Promotion Policy",
+                pricing: {small: 1000, medium: 300, large: 700},
+                rating: "⭐⭐⭐⭐ (4.3/5)"
+            },
+            {
+                name: "Heat-Resilient Farming Policy",
+                pricing: {small: 1500, medium: 400, large: 800},
+                rating: "⭐⭐⭐⭐ (4.5/5)"
+            },
+            {
+                name: "Weather Data Access and Early Warning Policy",
+                pricing: {small: 500, medium: 150, large: 300},
+                rating: "⭐⭐⭐⭐ (4.6/5)"
+            }
+        ];
+
+        document.getElementById('filter-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            const cropType = document.getElementById('crop-type').value;
+            const farmSize = parseInt(document.getElementById('farm-size').value);
+
+            const resultsDiv = document.getElementById('filtered-policies');
+            resultsDiv.innerHTML = ""; // Clear previous results
+
+            let filteredPolicies = policies.filter(policy => {
+                const smallFarmSize = policy.pricing.small;
+                const mediumFarmSize = policy.pricing.medium;
+                const largeFarmSize = policy.pricing.large;
+                // Filtering logic can be added here based on crop type and farm size
+                return (farmSize > 0 && farmSize < 10 && smallFarmSize) ||
+                       (farmSize >= 10 && farmSize < 50 && mediumFarmSize) ||
+                       (farmSize >= 50 && largeFarmSize);
+            });
+
+            if (filteredPolicies.length > 0) {
+                filteredPolicies.forEach(policy => {
+                    const policyElement = document.createElement('div');
+                    policyElement.innerHTML = `<strong>${policy.name}:</strong> 
+                                               <br><strong>Pricing:</strong> 
+                                               Small: ₹${policy.pricing.small}/year, 
+                                               Medium: ₹${policy.pricing.medium}/year, 
+                                               Large: ₹${policy.pricing.large}/year.
+                                               <br><strong>Rating:</strong> ${policy.rating}`;
+                    resultsDiv.appendChild(policyElement);
+                });
+                document.getElementById('results').style.display = 'block';
+            } else {
+                resultsDiv.innerHTML = "<p>No policies found for the selected criteria.</p>";
+                document.getElementById('results').style.display = 'block';
+            }
+        });
+    </script>
+</body>
+</html>
